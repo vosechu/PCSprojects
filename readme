@@ -1,0 +1,6 @@
+Week 1 Day 1 Learning Git
+mkdir creates folder
+cd then first letter and tab gives you the folder then hit enter
+git init that folder
+ls -a shows you that you have a git file
+touch readme creates readme
