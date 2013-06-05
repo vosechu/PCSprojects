@@ -1,0 +1,7 @@
+test
+string
+with
+a
+couple
+of
+lines
