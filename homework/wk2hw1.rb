@@ -1,5 +1,5 @@
 # When is it acceptable to use CamelCase?
-
+puts "use CamelCase when naming classes"
 # When do we use do...end instead of {...}?
 # In Test::Unit, what is the difference between assert and assert_equal?
 # Where do we put code that needs to be run before or after each test?
