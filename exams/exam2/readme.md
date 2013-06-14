@@ -10,6 +10,16 @@ Command line / System tools
 
 *Be able to push code to github
 *Memorize pairing strategies
+  pair strategies:
+    Ideals :
+      Rally Car - Driver and navigator of even skill
+      Evil Coder - nav/nav, any skill level
+      Ping Pong - driver/driver, even skill levels
+    Sub-optimal:
+      Commander/grunt - stronger navigator
+      Lost Navigator - stronger driver
+      Hot Mess - unprepared
+
 *Programming Concepts
 
 Memorize the syntax for creating classes,
@@ -22,7 +32,6 @@ Understand and use variables
 Memorize the steps for troubleshooting
 Memorize the steps for creating algorithms
 Memorize the common errors and how to fix them
-
 
 Ruby ecosystem
 
@@ -45,6 +54,7 @@ the car should have instance variables color, make
 the car should have a class variable ... reproduce (think Disney)
 the car should be initialized with instance variables
 the car should have an array of passengers
-if the car the car is full it should not accept any more passengers
-
+if the car the car is full it should not accept any more passengers,
+  unless it is Collette, in which case we can squeeze her in
 the car should have a hash describing maintenance schedule
+car will enter debug mode for poking around instance vars

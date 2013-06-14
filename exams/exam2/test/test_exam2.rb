@@ -62,4 +62,20 @@ describe "Car" do
     @car1.add_passenger("Chuck")
     @car1.add_passenger("Collette").must_equal("Sure, we can squeeze in")
   end
+
+  # using hash -- can you tell me if that second call is bad form?
+  # I have gotten some flak about doing key retrieval on a method call
+  # ie: maintenance is a method call, but I am calling
+      # maintenance[:oil]
+  it 'should show maintenance options' do
+    @car1.maintenance.class.must_equal Hash
+    @car1.maintenance[:oil].must_equal "oil change and filter"
+  end
+
+  # demonstrating debugging understanding
+  it 'should enter debug mode and display instance vars' do
+    skip
+    # @car1.methods(false).include?(car_debug).must_equal true
+  end
+
 end

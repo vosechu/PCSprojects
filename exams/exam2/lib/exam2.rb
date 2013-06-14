@@ -29,7 +29,9 @@ class Car
     Car.new(mom_car.color, dad_car.make)
   end
 
-  # using if statements
+  # using if and unless statements
+  # I recognise that using unless in this context is poor form
+  # if I can come up with a better example, I will
   def add_passenger(passenger)
     if @passengers.length < 3
       @passengers.push(passenger)
@@ -42,5 +44,18 @@ class Car
       return "Sure, we can squeeze in"
     end
   end
+
+  # initializing a hash
+  def maintenance
+    maintenance_options = {
+      :oil => "oil change and filter",
+      :tune_up => "plugs, air filter, oil change",
+      :tire_change => "replace tires"
+    }
+  end
+
+# ran out of time to implement
+  # def car_debug
+  # end
 
 end
